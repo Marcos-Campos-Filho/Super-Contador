@@ -1,11 +1,14 @@
 body {    
     background: rgb(149, 149, 212);
     font: normal 1.26rem Arial;
+    padding: 6.9rem;
 }
 
 header {
     color: white;
     text-align: center;
+    font-size:x-large;
+    padding: 0.9375rem;
 }
 
 section {
@@ -15,6 +18,11 @@ section {
      width: 31.25rem;
      margin: auto;
      box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.493);
+}
+
+input#button {
+    margin-bottom: 1.25rem;
+    font-size: 0.875rem;
 }
 
 footer {
