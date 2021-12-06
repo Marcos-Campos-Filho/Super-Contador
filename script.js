@@ -7,7 +7,7 @@ function contar() {
     if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
         res.innerHTML = "Impossível Contar!"
     } else {
-        res.innerHTML = 'Contando: <br>'
+        res.innerHTML = '<b>Contando:</b> <br>'
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
