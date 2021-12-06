@@ -14,10 +14,13 @@
     <header>Vamos Contar</header>
     <section>
         <div>
-            
+            <p><b>Início:</b> <input type="number" name="txtinicio" id="txtinicio" min="0"></p>
+            <p><b>Final:</b><input type="number" name="txtfinal" id="txtfinal" min="0"></p>
+            <p><b>Passo:</b><input type="number" name="txtpasso" id="txtpasso" min="0"></p>
+            <input type="button" value="contar" onclick="contar()">
         </div>
-        <div >
-            
+        <div id="resultado" >
+            <b>Preparando a Contagem...</b>
         </div>
     </section>
     <footer>
